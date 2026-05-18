@@ -1,65 +1,42 @@
 import { motion } from 'motion/react';
 
 const galleryImages = [
-  "https://images.unsplash.com/photo-1550005808-49033303848b?auto=format&fit=crop&q=80&w=800", // Nigerian Wedding 1
-  "https://images.unsplash.com/photo-1549416878-b9ca35c2d4bf?auto=format&fit=crop&q=80&w=800", // Traditional Elegance 2
-  "https://images.unsplash.com/photo-1566737236500-c8ac43014a67?auto=format&fit=crop&q=80&w=800", // Birthday Party 3
-  "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&q=80&w=800", // Joyful Celebration 4
-  "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=800", // White Wedding 5
-  "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800", // Gala Setup 6
-  "https://images.unsplash.com/photo-1614959544551-b91c069b4124?auto=format&fit=crop&q=80&w=800", // African Cultural 7
-  "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&q=80&w=800", // Lively Event 8
-  "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&q=80&w=800", // Interior Detail 9
-  "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&q=80&w=800", // Sophisticated Evening 10
-  "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&q=80&w=800", // Floral Decor 11
-  "https://images.unsplash.com/photo-1502635385003-ee1e6a1a742d?auto=format&fit=crop&q=80&w=800", // Wedding Rings 12
-  "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&q=80&w=800", // Luxury Interior 13
-  "https://images.unsplash.com/photo-1507504031003-b417219a0fde?auto=format&fit=crop&q=80&w=800", // Gala Table 14
-  "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&q=80&w=800", // Cake Details 15
-  "https://images.unsplash.com/photo-1472653525502-fc569e405a74?auto=format&fit=crop&q=80&w=800", // Interior 16
-  "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=800", // Decor 17
-  "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&q=80&w=800", // Detail 18
-  "https://images.unsplash.com/photo-1522673607200-1648832cee98?auto=format&fit=crop&q=80&w=800", // Table 19
-  "https://images.unsplash.com/photo-1496733094125-219f752d9190?auto=format&fit=crop&q=80&w=800", // Setting 20
-  "https://images.unsplash.com/photo-1522673607200-1648832cee98?auto=format&fit=crop&q=80&w=800", // Hall 21
+  "https://static.wixstatic.com/media/25ebd6_0085e6a101e44037b20bb14917f77b3f~mv2.jpg/v1/fill/w_204,h_283,q_90,enc_avif,quality_auto/25ebd6_0085e6a101e44037b20bb14917f77b3f~mv2.jpg", // Nigerian Wedding 1
+  "https://static.wixstatic.com/media/25ebd6_11a62a72cd3a447f80618e6a84a9fbfa~mv2.jpeg/v1/fill/w_269,h_283,q_90,enc_avif,quality_auto/25ebd6_11a62a72cd3a447f80618e6a84a9fbfa~mv2.jpeg", // Traditional Elegance 2
+  "https://static.wixstatic.com/media/25ebd6_1eb39357410045f9bf3b06e14c4ac252~mv2.jpg/v1/fill/w_522,h_348,q_90,enc_avif,quality_auto/25ebd6_1eb39357410045f9bf3b06e14c4ac252~mv2.jpg", // Birthday Party 3
+  "https://static.wixstatic.com/media/25ebd6_3bbc1d6fc1344809a3cdaecbc51709db~mv2.jpg/v1/fill/w_259,h_385,q_90,enc_avif,quality_auto/25ebd6_3bbc1d6fc1344809a3cdaecbc51709db~mv2.jpg", // Joyful Celebration 4
+  "https://static.wixstatic.com/media/25ebd6_4d25ce2bdf604169aaac6a9064b27ef8~mv2.jpg/v1/fill/w_259,h_192,q_90,enc_avif,quality_auto/25ebd6_4d25ce2bdf604169aaac6a9064b27ef8~mv2.jpg", // White Wedding 5
+  "https://static.wixstatic.com/media/25ebd6_50e0bea61e0b46d68140c4a23db9b021~mv2.jpg/v1/fill/w_279,h_348,q_90,enc_avif,quality_auto/25ebd6_50e0bea61e0b46d68140c4a23db9b021~mv2.jpg", // Gala Setup 6
+  "https://static.wixstatic.com/media/25ebd6_7cb8875b2e884edcb5320c261d58d3c3~mv2.jpg/v1/fill/w_501,h_375,q_90,enc_avif,quality_auto/25ebd6_7cb8875b2e884edcb5320c261d58d3c3~mv2.jpg", // African Cultural 7
+  "https://static.wixstatic.com/media/25ebd6_7d8a0acc31954ac283ce654bc28a23ce~mv2.jpg/v1/fill/w_400,h_300,q_90,enc_avif,quality_auto/25ebd6_7d8a0acc31954ac283ce654bc28a23ce~mv2.jpg", // Lively Event 8
+  "https://static.wixstatic.com/media/25ebd6_89363eacfba84337959af1c63547d672~mv2.jpg/v1/fill/w_299,h_375,q_90,enc_avif,quality_auto/25ebd6_89363eacfba84337959af1c63547d672~mv2.jpg", // Interior Detail 9
+  "https://static.wixstatic.com/media/25ebd6_8f55b674bd0f44ac877664ac0c359648~mv2.jpg/v1/fill/w_400,h_300,q_90,enc_avif,quality_auto/25ebd6_8f55b674bd0f44ac877664ac0c359648~mv2.jpg", // Sophisticated Evening 10
+  "https://static.wixstatic.com/media/25ebd6_9fb7f3a4c9764acea5fb3e3613e109e6~mv2.jpg/v1/fill/w_396,h_505,q_90,enc_avif,quality_auto/25ebd6_9fb7f3a4c9764acea5fb3e3613e109e6~mv2.jpg", // Floral Decor 11
+  "https://static.wixstatic.com/media/25ebd6_bc35383648974cc9bcc4f4559a5fa477~mv2.jpg/v1/fill/w_278,h_348,q_90,enc_avif,quality_auto/25ebd6_bc35383648974cc9bcc4f4559a5fa477~mv2.jpg", // Wedding Rings 12
+  "https://static.wixstatic.com/media/25ebd6_bfbbfdf78713476bb6682784fee24f0a~mv2.jpg/v1/fill/w_400,h_300,q_90,enc_avif,quality_auto/25ebd6_bfbbfdf78713476bb6682784fee24f0a~mv2.jpg", // Luxury Interior 13
+  "https://static.wixstatic.com/media/25ebd6_d69c258192c54f2989d2708eec033890~mv2.jpg/v1/fill/w_400,h_300,q_90,enc_avif,quality_auto/25ebd6_d69c258192c54f2989d2708eec033890~mv2.jpg", // Gala Table 14
+  "https://static.wixstatic.com/media/25ebd6_e000c18795014b8d88ba5c50724b68b3~mv2.jpg/v1/fill/w_542,h_677,q_90,enc_avif,quality_auto/25ebd6_e000c18795014b8d88ba5c50724b68b3~mv2.jpg", // Cake Details 15
+  "https://static.wixstatic.com/media/25ebd6_ea908a7cd87c4600b5b54df2b8ce8331~mv2.jpg/v1/fill/w_227,h_283,q_90,enc_avif,quality_auto/25ebd6_ea908a7cd87c4600b5b54df2b8ce8331~mv2.jpg", // Interior 16
+  "https://static.wixstatic.com/media/25ebd6_ec57d769b4f34699b6d7a9c0d4a86e6a~mv2.jpg/v1/fill/w_521,h_348,q_90,enc_avif,quality_auto/25ebd6_ec57d769b4f34699b6d7a9c0d4a86e6a~mv2.jpg", // Decor 17
+  "https://static.wixstatic.com/media/25ebd6_ec9fd9ba7a7740268ea3fab2b207ee70~mv2.jpg/v1/fill/w_404,h_505,q_90,enc_avif,quality_auto/25ebd6_ec9fd9ba7a7740268ea3fab2b207ee70~mv2.jpg", // Detail 18
+  "https://static.wixstatic.com/media/25ebd6_659ed193696547f4a0b886cdba99f62d~mv2.jpg/v1/fill/w_900,h_453,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSC_2855_edited_edited.jpg", // Table 19
   "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800", // Gala 22
   "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=800", // Wedding 23
   "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&q=80&w=800", // Event 24
-  "https://images.unsplash.com/photo-1530103043960-ef38714abb15?auto=format&fit=crop&q=80&w=800", // Birthday 25
   "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&q=80&w=800", // Decor 26
   "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&q=80&w=800", // Cake 27
   "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&q=80&w=800", // Floral 28
   "https://images.unsplash.com/photo-1502635385003-ee1e6a1a742d?auto=format&fit=crop&q=80&w=800", // Rings 29
-  "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&q=80&w=800", // Interior 30
-  "https://images.unsplash.com/photo-1549416878-b9ca35c2d4bf?auto=format&fit=crop&q=80&w=800", // Traditional 31
-  "https://images.unsplash.com/photo-1566737236500-c8ac43014a67?auto=format&fit=crop&q=80&w=800", // Birthday 32
   "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&q=80&w=800", // Celebration 33
   "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=800", // Wedding 34
   "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800", // Gala 35
-  "https://images.unsplash.com/photo-1614959544551-b91c069b4124?auto=format&fit=crop&q=80&w=800", // Cultural 36
-  "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&q=80&w=800", // Party 37
   "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&q=80&w=800", // Detail 38
   "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&q=80&w=800", // Evening 39
   "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&q=80&w=800", // Floral 40
-  "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800", // Corporate 41
-  "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&q=80&w=800", // Stage 42
-  "https://images.unsplash.com/photo-1530103043960-ef38714abb15?auto=format&fit=crop&q=80&w=800", // Setup 43
-  "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=800", // Event 44
-  "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?auto=format&fit=crop&q=80&w=800", // Crowd 45
-  "https://images.unsplash.com/photo-1475721027185-da8993881079?auto=format&fit=crop&q=80&w=800", // Light 46
-  "https://images.unsplash.com/photo-1514525253361-bee24387052b?auto=format&fit=crop&q=80&w=800", // Music 47
   "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=800", // Dance 48
   "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&q=80&w=800", // Models 49
   "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&q=80&w=800", // Detail 50
-  "https://images.unsplash.com/photo-1496733094125-219f752d9190?auto=format&fit=crop&q=80&w=800", // Glass 51
   "https://images.unsplash.com/photo-1529636798458-92182e662485?auto=format&fit=crop&q=80&w=800", // Dinner 52
-  "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&q=80&w=800", // Social 53
-  "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&q=80&w=800", // DJ 54
-  "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&q=80&w=800", // Singer 55
-  "https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&q=80&w=800", // Venue 56
-  "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&q=80&w=800", // Style 57
-  "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&q=80&w=800", // Jazz 58
-  "https://images.unsplash.com/photo-1485872222662-74ef727282a9?auto=format&fit=crop&q=80&w=800", // Bokeh 59
   "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=800"  // End 60
 ];
 
