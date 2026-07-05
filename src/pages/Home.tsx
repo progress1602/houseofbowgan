@@ -197,7 +197,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="relative order-2">
               <img
-                src="https://static.wixstatic.com/media/25ebd6_66dd564159cb40f7b5ff409e3d341aea~mv2.jpg/v1/fill/w_538,h_513,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/FB_IMG_1620388073167.jpg"
+                src="https://res.cloudinary.com/progresshenry/image/upload/v1783242215/IMG_5404_jec98v.jpg"
                 alt="Nigerian Wedding Couple"
                 className="w-full h-[500px] md:h-[600px] object-cover rounded-3xl"
                 referrerPolicy="no-referrer"
@@ -205,7 +205,7 @@ export default function Home() {
               <div className="absolute -bottom-6 -right-6 md:-bottom-10 md:-right-10 bg-brand-gold text-white p-8 md:p-12 rounded-3xl z-10">
                 <Star fill="white" className="mb-4" size={24} />
                 <p className="text-xl md:text-2xl font-serif italic">"Simply the best in the city."</p>
-                <p className="uppercase tracking-widest text-[10px] mt-4 font-bold">- Jessica & Mike</p>
+                <p className="uppercase tracking-widest text-[10px] mt-4 font-bold">- Chinedu & Adaugo</p>
               </div>
             </div>
             <div className="space-y-10 order-1 lg:order-2">
@@ -219,7 +219,7 @@ export default function Home() {
                     </p>
                     <div className="flex items-center space-x-3">
                       <div className="h-10 w-10 bg-brand-beige-base rounded-full"></div>
-                      <span className="uppercase tracking-widest text-xs font-bold text-brand-black">Jessica & Mike</span>
+                      <span className="uppercase tracking-widest text-xs font-bold text-brand-black">Jessica Smith</span>
                     </div>
                   </div>
                 ))}

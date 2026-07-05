@@ -6,33 +6,33 @@ const testimonials = [
   {
     name: "Meme & Manuel",
     event: "Luxury Wedding",
-    text: "We were so sure everything would go as planned and that’s because you’re a very meticulous person. The idea was to have a fun wedding party and we had just that! Even more! We are grateful. Thank you Emem.",
+    text: " We were so sure everything would go as planned and that’s because you’re a very meticulous person. The idea was to have a fun wedding party and we had just that! Even more! We are grateful. Thank you Emem.",
     image: "https://static.wixstatic.com/media/25ebd6_b2bb60e071a24fb491e656d726c36320~mv2.jpeg/v1/fill/w_364,h_447,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/25ebd6_b2bb60e071a24fb491e656d726c36320~mv2.jpeg",
     rating: 5
   },
   {
     name: "Anna & Kingsley",
-    event: "Premium Wedding",
+    event: "Premium wedding",
     text: "We hired you quite late but you handled all the details to near perfection. You coordinated our wedding with so much zeal. It was super amazing. Thank You",
     image: "https://static.wixstatic.com/media/25ebd6_306e3d629dd040e9a4ded00d0a4c34e9~mv2.jpg/v1/fill/w_354,h_504,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/MOT_5435.jpg",
     rating: 5
   },
   {
-    name: "Enwongo & David",
-    event: "Traditional Wedding",
-    text: "You’re a great multitasker and I must commend you for that. Despite the back and forth, you saw it through and handled the pressure well. Thanks for relieving us of the wedding stress. You’re really good",
-    image: "https://static.wixstatic.com/media/25ebd6_bbbd0f99c1d44f9dbf7fabea875c4606~mv2.jpg/v1/fill/w_399,h_539,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/18x.jpg",
-    rating: 5
-  },
-  {
     name: "Ugo & Rex",
-    event: "White Wedding ",
+    event: "Anniversary",
     text: "You came highly recommended by my kid brother as a Professional Planner and that made us trust you. You didn’t disappoint. I would gladly recommend you to others s as well. You know this game too well.",
     image: "https://static.wixstatic.com/media/25ebd6_32ec8b18f23f4efc8d6b4c0b249df61c~mv2.jpeg/v1/fill/w_444,h_486,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/25ebd6_32ec8b18f23f4efc8d6b4c0b249df61c~mv2.jpeg",
     rating: 5
   },
   {
-    name: "Michael Samuel",
+    name: "Anita Bello",
+    event: "Bridal Shower",
+    text: "Chic, delightful, and perfectly tailored. House of Bowgan understood my aesthetic perfectly and delivered a shower that was both intimate and grandly sophisticated.",
+    image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=800",
+    rating: 5
+  },
+  {
+    name: "Michael Chen",
     event: "Corporate Gala",
     text: "Strategic coordination at its finest. They handled our high-profile corporate launch with cinematic precision. Their attention to detail reflects our brand's values perfectly.",
     image: "https://images.unsplash.com/photo-1522673607200-1648832cee98?auto=format&fit=crop&q=80&w=800",
@@ -69,9 +69,9 @@ export default function Testimonials() {
 
       {/* Featured Cinematic Testimonials */}
       <section className="px-6 space-y-32 mb-32">
-        {testimonials.slice(0, 4).map((testimonial, idx) => (
+        {testimonials.slice(0, 3).map((testimonial, idx) => (
           <div key={testimonial.name} className="max-w-7xl mx-auto">
-            <div className={`flex flex-col ${idx % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center gap-16 md:gap-24`}>
+            <div className={`flex flex-col ${idx % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center gap-16 lg:gap-24`}>
               {/* Image Side */}
               <motion.div 
                 initial={{ opacity: 0, x: idx % 2 === 0 ? -50 : 50 }}
@@ -84,7 +84,7 @@ export default function Testimonials() {
                   <img 
                     src={testimonial.image} 
                     alt={testimonial.name} 
-                    className="w-full h-[500px] md:h-[650px] object-cover rounded-[2.5rem] shadow-2xl"
+                    className="w-full h-[650px] md:h-[850px] object-cover rounded-[2.5rem] shadow-2xl"
                     referrerPolicy="no-referrer"
                   />
                   <div className={`absolute -bottom-6 ${idx % 2 === 0 ? '-right-6' : '-left-6'} bg-brand-white p-6 rounded-2xl shadow-luxury hidden md:block z-10`}>

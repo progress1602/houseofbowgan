@@ -30,7 +30,7 @@ const eventCategories = [
   {
     title: "Bridal Showers",
     desc: "Chic and delightful pre-wedding celebrations tailored for the bride and her closest circle.",
-    img: "https://images.unsplash.com/photo-1635655407138-331cc1a5ba7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YnJpZGFsJTIwc2hvd2VyfGVufDB8fDB8fHww"
+    img: "https://images.unsplash.com/photo-1549416878-b9ca35c2d4bf?auto=format&fit=crop&q=80&w=800"
   }
 ];
 

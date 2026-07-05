@@ -4,12 +4,10 @@ import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const heroImages = [
-  "https://static.wixstatic.com/media/25ebd6_43c67d3d18aa401eb6464180f1175a03~mv2.jpg/v1/fill/w_548,h_730,q_90,enc_avif,quality_auto/25ebd6_43c67d3d18aa401eb6464180f1175a03~mv2.jpg", // White Wedding Gala
-  "https://static.wixstatic.com/media/25ebd6_6c37979b7bb641cea63c7eaa1da29a02~mv2.jpg/v1/fit/w_1186,h_493,q_90,enc_avif,quality_auto/25ebd6_6c37979b7bb641cea63c7eaa1da29a02~mv2.jpg", // Traditional Gele/Wedding
-  "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&q=80&w=2000", // Ballroom Decor
-  "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&q=80&w=2000", // Wedding Celebration
-  "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&q=80&w=2000", // Luxury Interior
-  "https://static.wixstatic.com/media/25ebd6_0ffa96b84ba344deafef65c71447fbfa~mv2.jpg/v1/fill/w_748,h_421,q_90,enc_avif,quality_auto/25ebd6_0ffa96b84ba344deafef65c71447fbfa~mv2.jpg"  // Night Gala
+  "https://res.cloudinary.com/progresshenry/image/upload/v1783242706/IMG_6814.JPG_m0hdn3.jpg", // White Wedding Gala
+  "https://res.cloudinary.com/progresshenry/image/upload/v1783242778/IMG_5403_vmufdv.jpg", // Traditional Gele/Wedding
+  "https://res.cloudinary.com/progresshenry/image/upload/v1783242745/IMG_5381_ft4ldv.jpg", // Ballroom Decor
+  "https://res.cloudinary.com/progresshenry/image/upload/v1783242217/IMG_6809.JPG_-_Copy_m6fh9f.jpg", // Wedding Celebration
 ];
 
 export default function Hero() {

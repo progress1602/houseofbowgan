@@ -58,11 +58,10 @@ export default function About() {
                 My name is Emem Udoh and I have keen interest for all things LOVE & WEDDINGS! Passionate and dedicated to wedding planning, I draw inspiration and enthusiasm from the extensive experience and practical know-how I've gathered throughout my career years. I love to keep up with the latest wedding trends, adding a little tweak in here and there, and of course including them in our repertoire. I love trends, but I always choose to pair it with those classic, elegant, and timeless details that make weddings as whimsical as they are.
               </p>
               <p>
-                The driving force behind the birth of House of Bowgan was my love and interest for details that seemed inconsequential to the eyes of others until it was, indeed, consequential. Many people attend weddings for the fun and pleasure of it (I do too, don’t get me wrong) But my eyes always wandered to possible minor concerns at wedding parties. To the Brides who eagerly wants to speak to someone to get things done right or the Guests having a hard time settling in, or vendors who won’t stick to timelines and no one to follow up on them. I found myself solving minor and major concerns that do arise at weddings and events. It gave me so much sense of fulfilment that I can solve problems, fix things and be the heroine of the day. I just cannot shake off the feeling that helping couples get their dream weddings is something I should do. Since I discovered this passion, I was lovestruck on it. This is why my team and I have assisted numerous couples plan their ideal wedding. It is a rare privilege to be inter-woven in numerous love stories I have no idea how they came to existence in the first place.  
+                The driving force behind the birth of House of Bowgan was my love and interest for details that seemed inconsequential to the eyes of others until it was, indeed, consequential. Many people attend weddings for the fun and pleasure of it (I do too, don’t get me wrong) But my eyes always wandered to possible minor concerns at wedding parties. To the Brides who eagerly wants to speak to someone to get things done right or the Guests having a hard time settling in, or vendors who won’t stick to timelines and no one to follow up on them. I found myself solving minor and major concerns that do arise at weddings and events. It gave me so much sense of fulfilment that I can solve problems, fix things and be the heroine of the day. I just cannot shake off the feeling that helping couples get their dream weddings is something I should do. Since I discovered this passion, I was lovestruck on it. This is why my team and I have assisted numerous couples plan their ideal wedding. It is a rare privilege to be inter-woven in numerous love stories I have no idea how they came to existence in the first place.
               </p>
               <p className="font-medium text-brand-black">
-                A smiling, satisfied bride, groom, and guests (very important) that are having the time of their lives is really what makes me get out of bed to do it over and over and over! 
-                When I'm not planning weddings, I'm either creating fun and insightful wedding content on YouTube, Instagram, and TikTok (seriously, I take weddings a tad seriously), or I’m engrossed in my 9-5 job as a Human Resource Manager. I also love travelling, meeting people, exploring new places and their food; but when I am home, a Netflix and chill is right up my alley! Any G.O.T fans ?
+                A smiling, satisfied bride, groom, and guests (very important) that are having the time of their lives is really what makes me get out of bed to do it over and over and over! When I'm not planning weddings, I'm either creating fun and insightful wedding content on YouTube, Instagram, and TikTok (seriously, I take weddings a tad seriously), or I’m engrossed in my 9-5 job as a Human Resource Manager. I also love travelling, meeting people, exploring new places and their food; but when I am home, a Netflix and chill is right up my alley! Any G.O.T fans ?
               </p>
             </div>
             <div className="pt-6 grid grid-cols-2 gap-8">
@@ -90,19 +89,14 @@ export default function About() {
           >
             <span className="text-brand-gold uppercase tracking-[0.4em] text-[10px] font-bold">Our History</span>
             <h2 className="text-4xl md:text-5xl font-serif text-brand-black leading-tight">
-              
-             About House of Bowgan<br /><span className="italic text-brand-teal-deep">Luxurious, Elegant & Stylish Weddings</span>
+              About House of Bowgan Luxurious, Elegant & Stylish Weddings
             </h2>
             <div className="space-y-6 text-zinc-600 leading-relaxed text-lg">
               <p>
-                Born out of pure passion for all things love & weddings, House of Bowgan is a boutique wedding planning company specializing in Nigerian, African, Multi-cultural and Destination weddings. We truly believe every couple deserves a perfectly planned, joyous wedding day, so we handle each wedding as if it were our last, giving our clients our very best and making sure they have a memorable, unforgettable yet delightful experience they'll cherish forever.
-              </p>
+                Born out of pure passion for all things love & weddings, House of Bowgan is a boutique wedding planning company specializing in Nigerian, African, Multi-cultural and Destination weddings. We truly believe every couple deserves a perfectly planned, joyous wedding day, so we handle each wedding as if it were our last, giving our clients our very best and making sure they have a memorable, unforgettable yet delightful experience they'll cherish forever.              </p>
               <p>
-                When planning weddings we aim for perfection, elegant style, and a detailed unique representation of our clients' vision - constantly aspiring to create amazing weddings! Based in Port Harcourt, Nigeria, House of Bowgan has been the go-to for couples wanting a bespoke, luxurious, and fun affair!
-              </p>
-              <p>Check out our portfolio for a peek at what we do best, and also read testimonials of what our past clients have to say about their experience with us! 
-
-                Our team of creative planners, led by the Founder, Creative Director/Lead Planner, Emem Udoh, are always here for you. No matter where you are on your wedding-planning journey, we'd love to hear from you and become a part of it!</p>
+               When planning weddings we aim for perfection, elegant style, and a detailed unique representation of our clients' vision - constantly aspiring to create amazing weddings! Based in Port Harcourt, Nigeria, House of Bowgan has been the go-to for couples wanting a bespoke, luxurious, and fun affair!              
+               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-8">
                 <div className="flex gap-4">
                   <div className="h-10 w-10 bg-brand-white rounded-full flex items-center justify-center shadow-sm">
