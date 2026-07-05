@@ -22,10 +22,10 @@ const servicesPreview = [
 ];
 
 const eventTypes = [
-  { name: "Weddings", img: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800" },
-  { name: "Galas", img: "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&q=80&w=800" },
-  { name: "Surprise Parties", img: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&q=80&w=800" },
-  { name: "Anniversaries", img: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&q=80&w=800" },
+  { name: "Weddings", img: "https://res.cloudinary.com/progresshenry/image/upload/v1783242241/IMG_6805.JPG_-_Copy_huluol.jpg" },
+  { name: "Galas", img: "https://res.cloudinary.com/progresshenry/image/upload/v1783242637/IMG_4159_dqjxnm.jpg" },
+  { name: "Surprise Parties", img: "https://res.cloudinary.com/progresshenry/image/upload/v1783242239/IMG_6790.JPG_dsotzt.jpg" },
+  { name: "Anniversaries", img: "https://res.cloudinary.com/progresshenry/image/upload/v1783242215/IMG_5404_jec98v.jpg" },
 ];
 
 export default function Home() {

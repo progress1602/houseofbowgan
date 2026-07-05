@@ -5,32 +5,32 @@ const eventCategories = [
   {
     title: "Weddings",
     desc: "Timeless, romantic, and breathtakingly elegant. We plan weddings that celebrate your love story with cinematic precision.",
-    img: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800"
+    img: "https://res.cloudinary.com/progresshenry/image/upload/v1783242775/IMG_5400_lshigx.jpg"
   },
   {
     title: "Birthdays",
     desc: "From milestone celebrations to intimate dinners, we make sure your special day is high-energy and perfectly styled.",
-    img: "https://images.unsplash.com/photo-1530103043960-ef38714abb15?auto=format&fit=crop&q=80&w=800"
+    img: "https://res.cloudinary.com/progresshenry/image/upload/v1783242239/IMG_6790.JPG_dsotzt.jpg"
   },
   {
     title: "Anniversaries",
     desc: "Honoring the journey of love with sophisticated gatherings that reflect a lifetime of memories.",
-    img: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&q=80&w=800"
+    img: "https://res.cloudinary.com/progresshenry/image/upload/v1783242215/IMG_5404_jec98v.jpg"
   },
   {
     title: "Galas & Corporate",
     desc: "Strategic coordination for high-profile events. We handle the complexity so your brand can shine.",
-    img: "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&q=80&w=800"
+    img: "https://res.cloudinary.com/progresshenry/image/upload/v1783242637/IMG_4159_dqjxnm.jpg"
   },
   {
     title: "Surprise Parties",
     desc: "Mastering the art of mystery. We manage the logistics and the secrecy for the ultimate reveal.",
-    img: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&q=80&w=800"
+    img: "https://res.cloudinary.com/progresshenry/image/upload/v1783242734/IMG_5401_k8c4wy.jpg"
   },
   {
     title: "Bridal Showers",
     desc: "Chic and delightful pre-wedding celebrations tailored for the bride and her closest circle.",
-    img: "https://images.unsplash.com/photo-1549416878-b9ca35c2d4bf?auto=format&fit=crop&q=80&w=800"
+    img: "https://res.cloudinary.com/progresshenry/image/upload/v1783242667/IMG_5406_a52egm.jpg"
   }
 ];
 

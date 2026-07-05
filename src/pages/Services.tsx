@@ -7,25 +7,29 @@ const services = [
     title: "Wedding & Event Planning",
     desc: "The full-service experience. We handle everything from budget spreadsheets and mood boards to spatial planning and floor plans. Your only job is to be present.",
     icon: <Users size={40} className="text-brand-gold" />,
-    features: ["Budget management", "Design & styling", "Timeline creation", "RSVP tracking"]
+    features: ["Budget management", "Design & styling", "Timeline creation", "RSVP tracking"],
+    image: "https://res.cloudinary.com/progresshenry/image/upload/v1783242217/IMG_6809.JPG_-_Copy_m6fh9f.jpg"
   },
   {
     title: "Vendor Management",
     desc: "We bridge the gap between you and the best suppliers. Our vendor management ensures contract accuracy, quality control, and seamless communication.",
     icon: <Package size={40} className="text-brand-gold" />,
-    features: ["Contract negotiation", "Vendor sourcing", "Technical briefings", "Payment schedules"]
+    features: ["Contract negotiation", "Vendor sourcing", "Technical briefings", "Payment schedules"],
+    image: "https://res.cloudinary.com/progresshenry/image/upload/v1783242257/IMG_6547.JPG_juhsm7.jpg"
   },
   {
     title: "Day-of Coordination",
     desc: "Already planned everything but want a professional to run the show? We step in 4 weeks prior to ensure your hard work results in a flawless day.",
     icon: <Compass size={40} className="text-brand-gold" />,
-    features: ["On-site management", "Vendor handover", "Crisis management", "Guest hospitality"]
+    features: ["On-site management", "Vendor handover", "Crisis management", "Guest hospitality"],
+    image: "https://res.cloudinary.com/progresshenry/image/upload/v1783242637/IMG_4159_dqjxnm.jpg"
   },
   {
     title: "P.I.Y (Plan It Yourself)",
     desc: "For the hands-on couple who needs professional guidance. We provide the tools, templates, and 3 strategic sessions to set you up for success.",
     icon: <Pencil size={40} className="text-brand-gold" />,
-    features: ["3 Strategy sessions", "Planning templates", "Checklist & tools", "Expert advice"]
+    features: ["3 Strategy sessions", "Planning templates", "Checklist & tools", "Expert advice"],
+    image: "https://res.cloudinary.com/progresshenry/image/upload/v1783242761/IMG_6545.JPG_erxbp4.jpg"
   }
 ];
 
@@ -51,12 +55,7 @@ export default function Services() {
           >
             <div className="md:w-1/2 w-full aspect-square md:aspect-auto md:h-[500px]">
               <img
-                src={`https://images.unsplash.com/photo-${[
-                  '1519225421980-715cb0215aed',
-                  '1511795409834-ef04bbd61622',
-                  '1519741497674-611481863552',
-                  '1472653525502-fc569e405a74'
-                ][i]}?auto=format&fit=crop&q=80&w=800`}
+                src={service.image}
                 alt={service.title}
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
